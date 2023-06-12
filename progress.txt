@@ -1,0 +1,41 @@
+contracts side done
+
+client side:
+
+files already done:
+1. contracts folder
+2. node modules folder
+3. public folder
+4. gitignore file
+5. index.html file
+6. package and package lock json
+7. config files
+
+files to work on:
+    src folder:
+        main.jsx            -       done
+        index.css           -       done
+        app.css             -       done
+        app.jsx             -       done
+
+        utils folder        -       done
+
+        components folder:
+            animate.jsx     -       done
+            footer          -       done
+            loader          -       done
+            navbar          -       done
+            transactions    -       to be done
+
+
+
+
+const buyACoffee = async (coffee) => {
+  try {
+    if (!ethereum) return alert("Please Install MetaMask");
+    
+  } catch (error) {
+    console.log(error);
+    throw new Error("No Ethereum Object");
+  }
+};
